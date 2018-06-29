@@ -5,8 +5,8 @@ class Database{
     private $host = "localhost";
     private $port = "3306";
     private $db_name = "test_db";
-    private $username = "username";
-    private $password = "password";
+    private $username = "root";
+    private $password = "user";
     public $conn;
  
     public function getConnection(){

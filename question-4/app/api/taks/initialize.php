@@ -1,5 +1,4 @@
 <?php
-// required headers
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Methods: POST");
@@ -13,21 +12,11 @@ $database = new Database();
 $db = $database->getConnection();
  
 $task = new Task($db);
- 
-// get posted data
-$data = json_decode(file_get_contents("php://input"));
- 
-// set product property values
-$task->title = $data->title;
-$task->description = $data->description;
-$task->priority = $data->priority;
- 
-if($task->create()){
-    echo '{';
-        echo '"message": "Tarefa criada."';
-    echo '}';
+
+if($task->initialize()){
+	$buffer = "Iniciado com sucesso.";
 }else{
-    echo '{';
-        echo '"message": "Erro ao criar a tarefa"';
-    echo '}';
+	$buffer = "Erro ao iniciar.";
 }
+
+echo '{"message": "'.$buffer.'"}';
