@@ -15,7 +15,7 @@
 4. Envie as alterações ao branch (`git push origin X-00000-Nome`)
 5. Crie um novo Pull Request
 
-[question1]: https://img.shields.io/badge/Question-1-Ok-brightgreen.svg
-[question2]: https://img.shields.io/badge/Question-2-Ok-brightgreen.svg
-[question3]: https://img.shields.io/badge/Question-3-Ok-brightgreen.svg
-[question4]: https://img.shields.io/badge/Question-4-Meddium-yellow.svg
+[question1]: https://img.shields.io/badge/Question1-Ok-brightgreen.svg
+[question2]: https://img.shields.io/badge/Question2-Ok-brightgreen.svg
+[question3]: https://img.shields.io/badge/Question3-Ok-brightgreen.svg
+[question4]: https://img.shields.io/badge/Question4-Meddium-yellow.svg
