@@ -17,4 +17,4 @@
 [question1]: https://img.shields.io/badge/Question1-Ok-brightgreen.svg
 [question2]: https://img.shields.io/badge/Question2-Ok-brightgreen.svg
 [question3]: https://img.shields.io/badge/Question3-Ok-brightgreen.svg
-[question4]: https://img.shields.io/badge/Question4-Meddium-brightgreen.svg
+[question4]: https://img.shields.io/badge/Question4-Ok-brightgreen.svg
